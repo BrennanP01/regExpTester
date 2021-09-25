@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="To get reaquainted with html/css" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Brennan Price" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Regular Expression Tester</title>
+    <script src="javaScript/testExpression.js"></script>
+</head>
+
+<body>
+    <header style="text-align: center;">
+        <h1>Regular Expression Tester</h1>
+        <h3>Brennan Price</h3>
+    </header>
+    <hr />
+
+    <!-- RegExp --> 
+    <div style="text-align: center;">
+    <form>
+        <label for="expression">Enter the Expression:</label><br />
+        <input type="text" id="inpRegexp" name="expression" />
+        <br />
+    </form>
+    <hr />
+
+    <!-- Testing Phrase -->
+    <form>
+        <label for="phrase">Enter the Phrase:</label><br />
+        <input type="text" id="inpPhrase" name="phrase" />
+        <br />
+    </form>
+    <hr />
+
+    <!-- Result and Button -->
+    <h3>Does it Fit?</h3>
+    <p id="result">?</p>
+    <button onclick="testExpression()">Test</button>
+    </div>
+</body>
+
+</html>

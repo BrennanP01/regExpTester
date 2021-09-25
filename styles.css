@@ -1,0 +1,56 @@
+body {
+    background-color: #141414;
+}
+
+h1 {
+    font-size: 5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #A9A69E;
+}
+
+h3 {
+    font-size: 4vh;
+    color: #A9A69E;
+}
+
+p {
+    color: #A9A69E;
+}
+
+hr {
+    background-color: #7A0800;
+    height: 2px;
+    color: #7A0800;
+    width: 80%;
+}
+
+input, label {
+    margin: 5px;
+    padding: 5px;
+}
+
+input {
+    background-color: #141414;
+    color: #A9A69E;
+    border-color: #7A0800;
+}
+
+label {
+    color:#A9A69E;
+}
+
+button {
+    background-color: #7A0800;
+    color: #A9A69E;
+    border-color: #7A0800;
+}
+
+.center {
+    margin-top: 15px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
